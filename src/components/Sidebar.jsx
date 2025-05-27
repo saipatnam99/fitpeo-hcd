@@ -1,32 +1,9 @@
-// const menuItems = [
-//   "Dashboard", "History", "Calendar", "Appointments", "Statistics",
-//   "Chat", "Support"
-// ]
 
-// export default function Sidebar() {
-//   return (
-//     <div className="w-64 bg-white shadow-md p-4 flex flex-col justify-between">
-//       <div>
-//         <h1 className="text-xl font-bold text-blue-600 mb-6">Health<span className="text-indigo-700">care.</span></h1>
-//         <ul className="space-y-4">
-//           {menuItems.map((item, index) => (
-//             <li key={index} className="flex items-center gap-2 text-gray-600 hover:text-indigo-600 cursor-pointer">
-//               <span>•</span> {item}
-//             </li>
-//           ))}
-//         </ul>
-//       </div>
-//       <button className="text-sm text-gray-400 mt-6">Setting</button>
-//     </div>
-//   )
-// }
-
-// Sidebar.tsx
 import { FaThLarge, FaHistory, FaCalendarAlt, FaUserMd, FaChartPie, FaComments, FaPhone, FaCog } from 'react-icons/fa';
 
 const Sidebar = () => {
   return (
-    <div className="h-screen w-56  bg-[#f5f9ff] shadow-lg flex flex-col justify-between p-4 rounded-br-3xl items-center py-12">
+    <div className="h-screen w-56  bg-[#f5f9ff] shadow-lg flex flex-col justify-between p-4 rounded-bl-3xl rounded-tl-3xl items-center py-12">
       <div>
         {/* Logo */}
         <h1 className="text-2xl font-bold text-cyan-500 mb-8">

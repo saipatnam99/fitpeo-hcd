@@ -1,23 +1,5 @@
 
  
-// import BodySection from './BodySection'
-// import Calendar from './Calendar'
-// import ActivityChart from './ActivityChart'
-
-
-// export default function Dashboard() {
-//   return (
-//     <div className="space-y-8 w-full h-full">
-//       <div className="grid lg:grid-cols-3  grid-cols-span-3 gap-6">
-//         <BodySection />
-//         <Calendar />
-      
-//       </div>
-   
-      
-//     </div>
-//   );
-// }
 
 import BodySection from './BodySection';
 import Calendar from './Calendar';
@@ -31,7 +13,7 @@ export default function Dashboard() {
       </div>
 
       {/* Right Side: Calendar + Schedule */}
-      <div className="flex flex-col">
+      <div className="flex flex-col max-w-full h-full">
         <Calendar />
       </div>
     </div>

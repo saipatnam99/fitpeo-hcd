@@ -33,9 +33,9 @@ export default function BodySection() {
         <span className="text-sm text-gray-400">This Week ▾</span>
       </div>
 
-      <div className="flex gap-4 mt-6 justify-between">
+      <div className="flex gap-4 mt-6 mb-4 justify-between">
         <div className="relative">
-          <img src="assets/anatomy.png" alt="Human Body" className="w-[75%] h-full"/>
+          <img src="assets/anatomy.png" alt="Human Body" className="w-[75%] h-full rounded-xl"/>
           {/* <span className="absolute top-[25%] left-[45%] text-white text-sm px-2 py-1 bg-blue-800 rounded-full">❤️ Healthy Heart</span>
           <span className="absolute top-[65%] left-[5%] text-white text-sm px-2 py-1 bg-cyan-500 rounded-full">🦵 Healthy Leg</span> */}
         </div>
@@ -48,7 +48,7 @@ export default function BodySection() {
          <div className="text-right text-blue-600 text-sm cursor-pointer">Details →</div>
       </div>
          </div>
-      <ActivityChart />
+      <ActivityChart className="mt-4"/>
     </div>
   );
 }

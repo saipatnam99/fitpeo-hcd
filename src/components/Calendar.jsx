@@ -6,24 +6,8 @@ import { BsPersonPlusFill, BsPlusSquare } from "react-icons/bs";
 
 const Calendar = () => {
   return (
-    <div className="bg-[#f5f9ff] shadow-lg rounded-3xl p-6 w-full max-w-2xl mx-auto font-sans">
-      {/* Header */}
-      {/* <div className="flex justify-between items-center mb-6">
-        <div className="text-sm text-gray-500 font-medium">October 2021</div>
-        <div className="flex items-center gap-2">
-          <button className="text-purple-500">&lt;</button>
-          <button className="text-purple-500">&gt;</button>
-          <div className="bg-teal-200 p-2 ">
-            <img src="https://i.pravatar.cc/30" alt="avatar" className="rounded-full" />
-          </div>
-          <button className="bg-purple-500 text-white p-2">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
-</svg>
-
-          </button>
-        </div>
-      </div> */}
+    <div className="bg-[#f5f9ff] shadow-lg rounded-3xl p-6 w-full max-w-3xl h-full mx-auto font-sans">
+      
      <div className="flex flex-col mb-6">
   {/* Top Row: Avatar and Plus Button */}
   <div className="flex items-center justify-end gap-2 mb-2">
@@ -116,8 +100,8 @@ const Calendar = () => {
       <div className="mt-8">
         <div className="text-gray-800 font-semibold mb-2">The Upcoming Schedule</div>
 
-        <div className="text-sm text-gray-500 mb-1">On Thursday</div>
-        <div className="grid grid-cols-2 gap-4 mb-4">
+        <div className="text-sm text-gray-500 mb-2 mt-4">On Thursday</div>
+        <div className="grid grid-cols-2 gap-4 mb-4 mt-6">
           <div className="bg-purple-100 text-gray-800 p-4 rounded-xl">
             <div className="justify-between flex">Health checkup complete
               <span className="text-xl">💉</span>
@@ -132,8 +116,8 @@ const Calendar = () => {
           </div>
         </div>
 
-        <div className="text-sm text-gray-500 mb-1">On Saturday</div>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="text-sm text-gray-500 mb-1 mt-2">On Saturday</div>
+        <div className="grid grid-cols-2 gap-4 mt-4">
           <div className="bg-purple-100 text-gray-800 p-4 rounded-xl ">
             <div className="flex items-center gap-2 justify-between">
               Cardiologist  <span className="text-red-500 text-sm">❤️</span>
