@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+// import Sidebar from './components/Sidebar'
+// import Dashboard from './components/Dashboard'
+
+// function App() {
+//   return (
+//     <div className="flex h-screen bg-white p-2 rounded-lg border  text-gray-800">
+//       <Sidebar />
+//       <div className="flex-1 p-6 overflow-y-scroll grid-cols-2 justify-around">
+//         <Dashboard />
+//       </div>
+//     </div>
+//   )
+// }
+
+// export default App
+
+import Sidebar from './components/Sidebar';
+import Dashboard from './components/Dashboard';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex h-screen bg-white p-2 rounded-lg border text-gray-800 overflow-hidden">
+      <Sidebar />
+      <div className="flex-1 p-4 overflow-y-auto">
+        <Dashboard />
+      </div>
     </div>
   );
 }
